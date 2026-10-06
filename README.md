@@ -14,7 +14,7 @@ Welcome to my portfolio repository documenting my practical journey in Data Scie
   * **Supervised Learning:** Decision Tree Classification
   * **Data Processing:** Min-Max Normalization, Feature Encoding
 * **Key Finding:** Achieved **94.5% prediction accuracy**, identifying Attendance Percentage and Study Hours as the primary drivers of student academic risk.
-* **Documentation:** [View Full Project Report](./IITM%20Student%20Academic%20Performance%20ML%20Project.pdf)
+
 
 ---
 
