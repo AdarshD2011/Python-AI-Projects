@@ -1,31 +1,34 @@
+# 🎓 Student Academic Performance & Risk Prediction
 
-# 🚀 Python & AI Projects
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Kaggle](https://img.shields.io/badge/Kaggle-Dataset%20%26%20Notebook-20BEFF?style=for-the-badge&logo=kaggle)
+![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey?style=for-the-badge)
 
-Welcome to my portfolio repository documenting my practical journey in Data Science, Machine Learning, and Python programming as a Class 10 student!
-
----
-
-## 📌 Featured Projects
-
-### 🎓 Student Academic Performance & Learning Risk Analysis
-* **Program:** IIT Madras School Connect Program (AI & Data Science)
-* **Techniques Used:** 
-  * **Unsupervised Learning:** K-Means Clustering ($k=3$)
-  * **Supervised Learning:** Decision Tree Classification
-  * **Data Processing:** Min-Max Normalization, Feature Encoding
-* **Key Finding:** Achieved **94.5% prediction accuracy**, identifying Attendance Percentage and Study Hours as the primary drivers of student academic risk.
-
+A Data Science and Machine Learning project analyzing academic risk factors across **200 students**. This repository implements Exploratory Data Analysis (EDA) and trains a **Decision Tree Classifier** to accurately classify students into **Low**, **Medium**, and **High** risk tiers.
 
 ---
 
-## 📚 Active Learning Roadmap
-* [x] **IIT Madras School Connect Program:** Introduction to AI & Data Science (Completed)
-* [ ] **Cisco Networking Academy:** Python Essentials 1 & 2 (In Progress)
-* [ ] **Kaggle Datasets:** Exploratory Data Analysis & Feature Engineering
+## 📌 Key Highlights & Results
+
+- **Dataset Size:** 200 clean student performance records.
+- **Model Trained:** Decision Tree Classifier (`max_depth=3`).
+- **Model Accuracy:** **85.00%** on validation test set.
+- **Primary Risk Factor:** Attendance Percentage (< 65% attendance strongly correlates with High Risk).
 
 ---
 
-## 🛠️ Skills & Tools
-* **Languages:** Python
-* **Data Science Concepts:** K-Means, Decision Trees, Gini Impurity, Entropy, Normalization
-* **Tools:** GitHub, Jupyter Notebooks, Kaggle
+## 🔗 Live Kaggle Artifacts
+
+- 📊 **Dataset on Kaggle:** [Student Academic Performance & Risk Dataset](https://www.kaggle.com/datasets/adarshdubey0123/student-academic-performance-risk-dataset)
+- 📓 **Kaggle Notebook:** [Interactive EDA & Decision Tree Model](https://www.kaggle.com/code/adarshdubey0123/student-academic-performance-eda-ml?scriptVersionId=356143149)
+
+---
+
+## 📂 Repository Structure
+
+```text
+.
+├── student_data.csv                    # Clean 200-student dataset
+├── Student_Academic_Performance.ipynb  # Main Python analysis & ML notebook
+└── README.md                           # Documentation page
